@@ -1,59 +1,41 @@
-/* Membership section */
-main section:nth-of-type(4) {
-    background-color: #071629;
-    color: white;
-    text-align: center;
+/* FAQ section */
+main section:nth-of-type(5) {
+    background-color: white;
     padding: 80px 0;
+    color: #071629;
 }
 
-main section:nth-of-type(4) h1 {
-    color: white;
+main section:nth-of-type(5) h1 {
+    text-align: center;
     font-size: 32px;
+    color: #071629;
     margin-bottom: 50px;
 }
 
-main section:nth-of-type(4) h1::first-letter {
-    color: #c271ff;
-}
-
-main section:nth-of-type(4) > div {
+main section:nth-of-type(5) > div {
     width: 80%;
     margin: auto;
+}
+
+main section:nth-of-type(5) > div > div {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 80px;
+    margin-bottom: 50px;
 }
 
-main section:nth-of-type(4) > div > div {
-    flex: 1;
-    text-align: center;
+main section:nth-of-type(5) > div > div > div {
+    width: 50%;
 }
 
-main section:nth-of-type(4) img {
-    width: 45px;
-    height: 45px;
+main section:nth-of-type(5) h2 {
+    font-size: 18px;
+    color: #071629;
     margin-bottom: 20px;
 }
 
-main section:nth-of-type(4) h2 {
-    color: white;
-    font-size: 18px;
-    margin-bottom: 15px;
-}
-
-main section:nth-of-type(4) p {
-    color: white;
+main section:nth-of-type(5) p {
     font-size: 14px;
-    line-height: 1.5;
-}
-
-main section:nth-of-type(4) button {
-    margin-top: 50px;
-    background-color: #c271ff;
-    color: white;
-    border: none;
-    border-radius: 25px;
-    padding: 15px 35px;
-    font-size: 14px;
-    cursor: pointer;
+    color: #071629;
+    line-height: 1.6;
 }
