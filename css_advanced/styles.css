@@ -1,38 +1,89 @@
-/* Quote section */
-main section:nth-of-type(2) {
-    background-color: #c271ff;
-    color: white;
+/* Videos section */
+main section:nth-of-type(3) {
+    background-color: white;
+    padding: 80px 0;
+}
+
+main section:nth-of-type(3) h1 {
+    color: #071629;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+
+main section:nth-of-type(3) h1::first-letter {
+    color: #c271ff;
+}
+
+main section:nth-of-type(3) > div {
+    width: 80%;
+    margin: auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 80px 15%;
+    justify-content: space-between;
+    gap: 30px;
 }
 
-main section:nth-of-type(2) > div {
-    display: flex;
-    align-items: center;
+main section:nth-of-type(3) > div > div {
+    width: 23%;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
-main section:nth-of-type(2) img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    margin-right: 50px;
+main section:nth-of-type(3) img {
+    width: 100%;
+    border-radius: 10px;
 }
 
-main section:nth-of-type(2) blockquote {
-    font-size: 22px;
-    font-style: italic;
-    margin: 0 0 20px;
-}
-
-main section:nth-of-type(2) p:first-of-type {
-    font-weight: bold;
+main section:nth-of-type(3) h2 {
     font-size: 18px;
-    margin-bottom: 5px;
+    color: #071629;
+    margin: 15px 0;
 }
 
-main section:nth-of-type(2) p:last-of-type {
-    font-style: italic;
-    font-size: 16px;
+main section:nth-of-type(3) p {
+    font-size: 14px;
+    color: #071629;
+    line-height: 1.5;
+}
+
+
+/* Author */
+main section:nth-of-type(3) > div > div > div:first-of-type {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+main section:nth-of-type(3) > div > div > div:first-of-type img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+main section:nth-of-type(3) > div > div > div:first-of-type h3 {
+    color: #c271ff;
+    font-size: 14px;
+}
+
+
+/* Rating */
+main section:nth-of-type(3) > div > div > div:last-child {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+main section:nth-of-type(3) > div > div > div:last-child div {
+    display: flex;
+}
+
+main section:nth-of-type(3) > div > div > div:last-child img {
+    width: 15px;
+    height: 15px;
+}
+
+main section:nth-of-type(3) > div > div > div:last-child p {
+    color: #c271ff;
 }
