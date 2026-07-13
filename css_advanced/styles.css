@@ -1,95 +1,38 @@
-/* Header */
-header {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 0;
-}
-
-header img {
-    width: 160px;
-}
-
-header div {
-    display: flex;
-    align-items: center;
-}
-
-header a {
-    color: white;
-    text-decoration: none;
-    margin-left: 40px;
-    font-size: 16px;
-}
-
-
-/* Banner */
-main section:first-child {
-    background-image: url("images/background.png");
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding-bottom: 80px;
-}
-
-main section:first-child > div:first-child {
-    padding-top: 100px;
-}
-
-h1 {
-    font-size: 120px;
-    color: white;
-    margin: 0;
-    font-weight: bold;
-}
-
-main section:first-child p {
-    color: white;
-    font-size: 20px;
-    margin: 20px 0;
-}
-
-button {
+/* Quote section */
+main section:nth-of-type(2) {
     background-color: #c271ff;
     color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 15px 30px;
-    font-size: 14px;
-    box-shadow: 0px 5px 15px rgba(0,0,0,0.3);
-}
-
-
-/* Learn from the best */
-main section:first-child h2 {
-    color: #c271ff;
-    font-size: 32px;
-    margin-top: 80px;
-}
-
-main section:first-child > div:last-child {
-    width: 80%;
-    margin: auto;
-}
-
-main section:first-child > div:last-child > div {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 15%;
 }
 
-main section:first-child img {
+main section:nth-of-type(2) > div {
+    display: flex;
+    align-items: center;
+}
+
+main section:nth-of-type(2) img {
+    width: 160px;
+    height: 160px;
     border-radius: 50%;
+    margin-right: 50px;
 }
 
-h3 {
-    font-size: 18px;
-    font-weight: bold;
-}
-
-main section:first-child em {
-    font-size: 14px;
+main section:nth-of-type(2) blockquote {
+    font-size: 22px;
     font-style: italic;
+    margin: 0 0 20px;
+}
+
+main section:nth-of-type(2) p:first-of-type {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+main section:nth-of-type(2) p:last-of-type {
+    font-style: italic;
+    font-size: 16px;
 }
