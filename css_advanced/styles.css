@@ -1,89 +1,59 @@
-/* Videos section */
-main section:nth-of-type(3) {
-    background-color: white;
+/* Membership section */
+main section:nth-of-type(4) {
+    background-color: #071629;
+    color: white;
+    text-align: center;
     padding: 80px 0;
 }
 
-main section:nth-of-type(3) h1 {
-    color: #071629;
-    text-align: center;
+main section:nth-of-type(4) h1 {
+    color: white;
     font-size: 32px;
     margin-bottom: 50px;
 }
 
-main section:nth-of-type(3) h1::first-letter {
+main section:nth-of-type(4) h1::first-letter {
     color: #c271ff;
 }
 
-main section:nth-of-type(3) > div {
+main section:nth-of-type(4) > div {
     width: 80%;
     margin: auto;
     display: flex;
     justify-content: space-between;
-    gap: 30px;
+    gap: 40px;
 }
 
-main section:nth-of-type(3) > div > div {
-    width: 23%;
-    border-radius: 10px;
-    overflow: hidden;
+main section:nth-of-type(4) > div > div {
+    flex: 1;
+    text-align: center;
 }
 
-main section:nth-of-type(3) img {
-    width: 100%;
-    border-radius: 10px;
+main section:nth-of-type(4) img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 20px;
 }
 
-main section:nth-of-type(3) h2 {
+main section:nth-of-type(4) h2 {
+    color: white;
     font-size: 18px;
-    color: #071629;
-    margin: 15px 0;
+    margin-bottom: 15px;
 }
 
-main section:nth-of-type(3) p {
+main section:nth-of-type(4) p {
+    color: white;
     font-size: 14px;
-    color: #071629;
     line-height: 1.5;
 }
 
-
-/* Author */
-main section:nth-of-type(3) > div > div > div:first-of-type {
-    display: flex;
-    align-items: center;
-    margin-top: 20px;
-}
-
-main section:nth-of-type(3) > div > div > div:first-of-type img {
-    width: 30px;
-    height: 30px;
-    border-radius: 50%;
-    margin-right: 15px;
-}
-
-main section:nth-of-type(3) > div > div > div:first-of-type h3 {
-    color: #c271ff;
+main section:nth-of-type(4) button {
+    margin-top: 50px;
+    background-color: #c271ff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 35px;
     font-size: 14px;
-}
-
-
-/* Rating */
-main section:nth-of-type(3) > div > div > div:last-child {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 15px;
-}
-
-main section:nth-of-type(3) > div > div > div:last-child div {
-    display: flex;
-}
-
-main section:nth-of-type(3) > div > div > div:last-child img {
-    width: 15px;
-    height: 15px;
-}
-
-main section:nth-of-type(3) > div > div > div:last-child p {
-    color: #c271ff;
+    cursor: pointer;
 }
